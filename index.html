@@ -205,6 +205,30 @@
                 padding: 20px;
             }
         }
+      	
+      	/* Estilo para a barra de rolagem */
+      ::-webkit-scrollbar {
+          width: 8px; /* Tamanho da barra de rolagem vertical */
+          height: 8px; /* Tamanho da barra de rolagem horizontal */
+      }
+
+      	/* Estilo para o fundo da barra de rolagem */
+        ::-webkit-scrollbar-track {
+            background-color: #2C3E50; /* Cor do fundo */
+            border-radius: 10px;
+        }
+
+        /* Estilo para o polegar da barra de rolagem (a parte que você arrasta) */
+        ::-webkit-scrollbar-thumb {
+            background-color: #1abc9c; /* Cor do polegar */
+            border-radius: 10px;
+            border: 2px solid #34495e; /* Borda para dar destaque */
+        }
+
+        /* Quando o polegar da barra de rolagem é "hover" (passa o mouse sobre ele) */
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #16a085;
+        }
     </style>
 </head>
 <body>
